@@ -10,7 +10,7 @@ _The **Quantum Brain** is a next-generation photonic neuromorphic quantum comput
 - [Architecture](#architecture)
 - [Quaternary Logic](#quaternary-logic)
 - [Signal Propagation & Context Encoding](#signal-propagation--context-encoding)
-- [Key Technologies & Their Biological Counterparts](#key-technologies—their-biological-counterparts)
+- [Key Technologies & Their Biological Counterparts](#key-technologies--their-biological-counterparts)
 - [References](#references)
 
 ---
