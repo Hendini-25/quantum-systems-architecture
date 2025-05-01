@@ -103,12 +103,12 @@ For licensing inquiries, implementation partnerships, or collaboration, contact:
 # How to Use This Repository
 
 - Start with the '/docs/' folder for concept diagrams and white paper drafts
-
- *(As of writing, "Quantum Brain" contains the most detailed concept work.)*
+ *(As of updating, '/docs/' folder is not a thing. Will be fixed later)*
 
 - Each protocol lives in its own folder with logic blocks and commentary.
 
 - Check '/simulations/' for runnable models (Python + Qiskit).
+ *(As of updating, '/simulations/' folder is also not a thing. Will be fixed later)*
 
 - Use the top-level 'README.md' files in each folder to understand design intent and logic progression.
 
