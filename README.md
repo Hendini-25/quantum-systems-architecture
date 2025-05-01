@@ -47,7 +47,6 @@ A phase-corrected quantum memory protocol using ancilla-based detection to valid
 -**Quantum Brain**
 
 A neuromorphic quantum architecture using self-reinforcing collapse patterns and quaternary logic routing 
-
 *(Note: Mostly Complete.)* 
 
 
