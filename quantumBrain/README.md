@@ -11,6 +11,8 @@ _The **Quantum Brain** is a next-generation photonic neuromorphic quantum comput
 - [Quaternary Logic](#quaternary-logic)
 - [Signal Propagation & Context Encoding](#signal-propagation--context-encoding)
 - [Key Technologies & Their Biological Counterparts](#key-technologies--their-biological-counterparts)
+- [Implementation](#implementation)
+- [Applications](#applications)
 - [References](#references)
 
 ---
@@ -26,12 +28,6 @@ If you are familiar with photonic computing, skip this paragraph; otherwise, con
 ## Architecture
 
 A system of photonic qubits, each with **n** photonic memristors attached. Those memristors connect to other qubits, leading to step-based logic and interconnectedness, the same way that neurons have synapses connecting them to other neurons. The important part is that the signal from the memristors is analog and therefore noisy and unrefined, so it will need to be transformed into a digital signal to be refined by digital logic and then sent to the qubit. As such, the architecture will be photonic memristors  digital  qubit.
-
-It is worth mentioning that the architecture being described would be best implemented in three dimensions rather than two.
-
-Technologically, that is incredibly advanced and beyond out-of-reach at this time. So, instead, a two-dimensional format will be used, however, it will certainly be less optimized.
-
-The implementation of this architecture in an incredibly dense three-dimensional format is not possible currently and may not even be possible in my lifetime. This architecture being described can be utilized with or without the qubits, and it could be designed with digital logic in mind. However, as will be stated below, the digital logic being used is unconventional. The quaternary form of logic may not be global across the entire quantum brain, however it is universal to all life (as we know it).
 
 ---
 
@@ -62,13 +58,78 @@ Information would be encoded in a quaternary storage and, via a combination of t
 
 ## Key Technologies & Their Biological Counterparts
 
--	_Synapses_ **Photonic Memristors**: Continuous analog input
--	_Dendrites_ **Context-aware routing(Filters) and Waveguides**: context encoding via (voltage or phase change) metamaterials, (electro-optic or 2D material) polarizers, (tunable metasurface or photonic crystal) waveplates, and (carrier injection or phase change coupling) plasmonic structures some or all of which are embedded into the waveguides
--	_Axon Hillock_ **Photonic Digital Logic Layer**: processes analog signal, decides if/what gate to trigger
--	_Axon_ **Photonic path/ (Qubits or Ququarts)**: Sends controlled signal(s) to (qubit or ququart) or the next unit
--	_Neuron Soma_ **Photonic (Qubits or Ququarts)**: stores and process the result of interpreted signals
+•	_Synapses_ **Photonic Memristors**: Continuous analog input
+•	_Dendrites_ **Context-aware routing(Filters) and Waveguides**: context encoding via (voltage or phase change) metamaterials, (electro-optic or 2D material) polarizers, (tunable metasurface or photonic crystal) waveplates, and (carrier injection or phase change coupling) plasmonic structures some or all of which are embedded into the waveguides
+•	_Axon Hillock_ **Photonic Digital Logic Layer**: processes analog signal, decides if/what gate to trigger
+•	_Axon_ **Photonic path/ (Qubits or Ququarts)**: Sends controlled signal(s) to (qubit or ququart) or the next unit
+•	_Neuron Soma_ **Photonic (Qubits or Ququarts)**: stores and process the result of interpreted signals
 
 ---
+
+## Implementation
+
+It is worth mentioning that the architecture being described would be best implemented in three dimensions rather than two. A 3D layout would allow for significantly greater interconnectivity/synapse density between photonic qubits, memristors, and filters, which would enable reduced signal latency and a closer approximation of biological neural structures. However, this level of dense three-dimensional photonic integration is currently far beyond technological capabilities—and may remain infeasible for the foreseeable future. 
+As such, a two-dimensional implementation will serve as the initial development platform. While less optimized in terms of physical density and interconnect geometry, a 2D format would still allow for all of the core architectural features to be tested and demonstrated—including context-aware routing, quaternary logic, and signal propagation mechanisms.
+
+Notably, the **Quantum Brain** architecture, despite its name, is modular in quantum integration:
+
+- It can be deployed with or without photonic qubits.
+- Even without quantum elements present, the system still offers an ultra-fast, energy-efficient, analog-weighted neuromorphic computing substrate.
+- For short-term development, implementing the architecture with quaternary digital logic in place of quantum components may be more feasible.
+
+This flexibility will allow for progressive implementation: from photonic neuromorphic systems with classical output, to hybrid electro-optic logic, and ultimately toward full quantum co-processing.
+
+>More to be added in the future…
+
+---
+
+## Applications
+
+The architecture described in this section holds significant promise beyond theoretical computation. Its structure, unifying both memory and logic, analog context-awareness, and potential quantum computation—enables some novel capabilities that go far beyond what can be done with traditional silicon-based systems.
+
+### Robotics and Embodied Intelligence
+
+Systems built, even partially, upon this architecture could lead to robots with physically-integrated learning and perception where:
+-	The same pathways used for memory are used for computation, therefore lower latency and energy consumption.
+-	Filtering and contextual gating occur in-line with the signal flow, not in isolated chips or decision modules, so as the light travels, it would immediately be shaped by the context.
+-	The robot’s sensors and processing substrate would effectively be one and the same, with context-aware photonic filtering replacing what would traditionally be a software-level control flow, this could lead to reflexive and adaptive behavior.
+
+A system like this would allow the robot’s “body” to interpret its own context, not just respond to it, enabling higher degrees of adaptivity, especially in uncertain, unfamiliar, or dynamic environments.
+
+### Neural Networks and AI on Neuromorphic Quantum Photonics
+
+Running neural networks on a substrate like this would allow hardware and software to train simultaneously, where:
+-	Memristive weights adapt in-place, in real time. This could be the basis for hardware-level learning.
+-	Filtering structures could evolve alongside network weights, training not only how it responds, but effectively training what the system pays attention to. This means that the system knows what inputs are irrelevant at any given time.
+-	Digital and photonic logic could encode both probabilistic weighting and deterministic steps, all in the same layer.
+
+This could yield algorithmic learning that is deeply entangled physically, which would blur the line between the model and the medium.
+
+### Toward Integrated, Embodied Intelligence and Human Integration
+
+In conventional computing, neural networks and AI are running on hardware. In this system, these algorithms could become software that is embodied in hardware. The separation between the two could dissolve. This mirrors how biological organisms operate: thought, action, memory, and context are not isolated, instead they are interwoven into the same medium, the brain. 
+
+If successfully implemented, even in part, architectures like this may one day support systems with:
+-	Real-time, low-energy adaptation
+-	Sensory-driven learning and feedback loops
+-	Self-organizing internal state representation
+-	Long-term storage and dynamic memory tied directly to computation.
+
+The result would not just be faster AI, it would be embodied physicalized intelligence.
+
+Long-term, architectures like this one could become the groundwork for **cybernetic systems**—biologically-integrated devices that are capable of adapting to, interfacing with, or augmenting human neural and cognitive function.
+
+In layman’s terms, the Quantum brain—even only in partial form—may serve as a **precursor to cyborg-class systems**, where both computational and cognitive processing are embedded into bodies, environments, or biological substrates themselves.
+
+Integration like that could support:
+
+-	Brain-computer interfaces with localized adaptive processing
+-	Autonomous prosthetics with self-tuning sensory-motor control
+-	Robotic extensions that co-evolve with human intention and feedback
+
+> At what point does uploading an untrained algorithm in this system feel less like loading an operating system onto a computer... and more like giving a robot a soul — and then an existential crisis?
+---
+
 
 ## References
 
