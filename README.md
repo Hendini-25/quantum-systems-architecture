@@ -32,32 +32,40 @@ These projects are intended as **design blueprints**, **code fragments**, **arch
 
 
 
--**PhaseLink**
+### **PhaseLink**
 
 A communication protocol using collapse events and phase tagging to synchronize systems without direct message transmission.
 
+> *(Note: This conceptual quantum communication protocol relies heavily on the QSSD's protocols. As such, information about "PhaseLink" and the "Quelephone" will be released after the QSSD, as they are conceptually similar; however, some key aspects of the two are different.)* 
 
 
--**QSSD (Quantum State Storage Drive)**
+
+### **QSSD (Quantum State Storage Drive)**
 
 A phase-corrected quantum memory protocol using ancilla-based detection to validate and correct collapse-derived bit states.
 
+> *(Note: This conceptual simultaneous file download quantum storage device has protocols that are currently invalidated by the no-cloning theorem. These invalidations affect the functionality of related technologies. I will publish more details in the not-too-distant future.)*
 
 
--**Quantum Brain**
+
+### **Quantum Brain**
 
 A neuromorphic quantum architecture using self-reinforcing collapse patterns and quaternary logic routing 
-*(Note: Mostly Complete.)* 
+
+> *(Note: Mostly Complete. The protocols of the "QSSD" that are invalidated by the no-cloning theorem are not invalidated to the same degree in the case of their application(s) in the "Quantum Brain.")* 
 
 
 
--**Quelephone**
+
+### **Quelephone**
 
 A conceptual entanglement-based communication device that uses collapse-confirmed phase signaling to replace conventional voice/data signaling systems.
 
+> *(Note: This conceptual quantum communication device relies heavily on the QSSD's protocols. As such, information about the "Quelephone" and "PhaseLink" will be released after the QSSD, as they are conceptually similar; however, some key aspects of the two are different.)*
+ 
 
 
----
+
 
 
 
@@ -66,8 +74,10 @@ A conceptual entanglement-based communication device that uses collapse-confirme
 
 
 - Protocols are described in high-level descriptions, annotated Python/Qiskit logic blocks, and system diagrams.
-
+> *(As of updating, a high-level description of the Quantum Brain is available and other concepts will be made available soon.)*
+  
 - Some directories contain partial simulations. Others are sketches—frameworks under development. 
+> *(As of updating, this still needs to be done. Will be fixed later)*
 
 -	Concepts range from realistic and testable to speculative and forward-thinking.
 
@@ -102,12 +112,13 @@ For licensing inquiries, implementation partnerships, or collaboration, contact:
 # How to Use This Repository
 
 - Start with the '/docs/' folder for concept diagrams and white paper drafts
- *(As of updating, '/docs/' folder is not a thing. Will be fixed later)*
+> *(As of updating, '/docs/' folder is not a thing. Will be fixed later)*
 
 - Each protocol lives in its own folder with logic blocks and commentary.
+> *(As of updating, the only folder right now is the Quantum Brain. Will be fixed within the week.)*
 
 - Check '/simulations/' for runnable models (Python + Qiskit).
- *(As of updating, '/simulations/' folder is also not a thing. Will be fixed later)*
+> *(As of updating, '/simulations/' folder is also not a thing. Will be fixed later)*
 
 - Use the top-level 'README.md' files in each folder to understand design intent and logic progression.
 
