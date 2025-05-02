@@ -1,15 +1,15 @@
 # Quantum Brain
 
-_The **Quantum Brain** is a next-generation photonic neuromorphic quantum computing system inspired by human brain function, specifically wavefront signal propagation observed in EEG data. Neuromorphic systems unify memory and computation, and this one is no different, however this one utilizes photonics using cutting-edge materials and logic architectures to emulate processing similar to that of the brain._
+_The **Quantum Brain** is a next-generation photonic neuromorphic quantum computing system inspired by human brain function, specifically wavefront signal propagation observed in EEG data. Neuromorphic systems unify memory and computation, and this one is no different, however, this one utilizes photonics using cutting-edge materials and logic architectures to emulate processing similar to that of the brain._
 
 ---
 
 ## Table of Contents
 
 - [Terminology](#terminology)
-- [Architecture](#architecture)
 - [Quaternary Logic](#quaternary-logic)
 - [Signal Propagation & Context Encoding](#signal-propagation--context-encoding)
+- [Architecture](#architecture)
 - [Key Technologies & Their Biological Counterparts](#key-technologies--their-biological-counterparts)
 - [Implementation](#implementation)
 - [Applications](#applications)
@@ -21,13 +21,7 @@ _The **Quantum Brain** is a next-generation photonic neuromorphic quantum comput
 
 If you are familiar with neuromorphic computing, skip this paragraph; otherwise, continue reading. Neuromorphic computing describes a kind of computational architecture based on or inspired by the brain. Many neuromorphic architectures use analog computing with memristors. Memristors are a basic circuit component that remembers the current that just passed through it and will have a variable resistance based on said current. It “remembers” the current, so it “remembers” what resistance value it will have, hence memristor. One aspect of neuromorphic computing that differentiates it from classical von Neumann computational architectures is that it does not operate on a clock. Another aspect of neuromorphic computing is that the computation and the memory are in the same location, which is the intention for this system as well. Components are only powered when they are being used, otherwise, they are off. All these factors lead neuromorphic computing to be incredibly energy efficient, and neuromorphic architectures are especially good when it comes to running neural networks and machine learning algorithms.
 
-If you are familiar with photonic computing, skip this paragraph; otherwise, continue reading. Photonic computing uses light particles (photons) rather than electrons to perform operations and transfer information. Photonics is involved in fiber optic communications in data centers, telecommunications, the internet, and WiFi. Recently, Nvidia announced a photonic AI chip for data centers. Photonic computing is not new, neither photonic quantum computing, nor photonic neuromorphic computing are original, however their implementation here is what makes this architecture so promising.
-
----
-
-## Architecture
-
-A system of photonic qubits, each with **n** photonic memristors attached. Those memristors connect to other qubits, leading to step-based logic and interconnectedness, the same way that neurons have synapses connecting them to other neurons. The important part is that the signal from the memristors is analog and therefore noisy and unrefined, so it will need to be transformed into a digital signal to be refined by digital logic and then sent to the qubit. As such, the architecture will be photonic memristors  digital  qubit.
+If you are familiar with photonic computing, skip this paragraph; otherwise, continue reading. Photonic computing uses light particles (photons) rather than electrons to perform operations and transfer information. Photonics is involved in fiber optic communications in data centers, telecommunications, the internet, and WiFi. Recently, Nvidia announced a hybrid electronic-photonic AI chip for data centers. Photonic computing is not new, neither photonic quantum computing, nor photonic neuromorphic computing are original, however their implementation here is what makes this architecture so promising. 
 
 ---
 
@@ -53,6 +47,14 @@ Using a combination of photonic memristors, light polarization, metamaterials, p
 One aspect of the CAR is that it will be able to dynamically adjust its filters during operation. This is computationally powerful, as it allows for reconfigurable logic and memory wherein the same physical pathway can implement different logic operations at different times, and different filters can exist on either side of any given memristor. With this, adaptive routing is made possible, which is akin to synaptic plasticity in the brain. Additionally, contextual memory could be updated in real-time by reprogramming the filters. There are several technologies that allow for this dynamic adjustment, including tunable metasurfaces, electro-optic modulators, and thermally or optically switchable metamaterials.
 
 Information would be encoded in a quaternary storage and, via a combination of transistors and memristors—as demonstrated in non-photonic neuromorphic computing—memory and processing can exist in the same location.
+
+---
+
+## Architecture
+
+A system of photonic qubits/ququarts, each with **n** photonic memristors attached. Those memristors connect to other qubits/ququarts, leading to step-based logic and interconnectedness, the same way that neurons have synapses connecting them to other neurons. The important part is that the signal from the memristors is analog and therefore noisy and unrefined, so it will need to be transformed into a digital signal to be refined by digital logic and then sent to the qubit. As such, the architecture will be data filters (CARs) -> connected waveguides -> photonic memristors -> digital logic -> qubits/ququarts. 
+
+For the entanglement of the stationary photonic qubits/ququarts, a secondary waveguide will serve as a targeted delivery path, on top of the first waveguide, which will allow photons to bypass the logic to entangle the qubits/ququarts with this mediator photon. This process of entanglement is a variation of entanglement swapping, in addition to resembling measurement-induced entanglement.
 
 ---
 
