@@ -10,7 +10,7 @@ _The **Quantum Brain** is a next-generation photonic neuromorphic quantum comput
 - [Quaternary Logic](#quaternary-logic)
 - [Signal Propagation & Context Encoding](#signal-propagation--context-encoding)
 - [Architecture](#architecture)
-- [Key Technologies & Their Biological Counterparts (if Any)]((#key-technologies--their-biological-counterparts-if-any))
+- [Key Technologies & Their Biological Counterparts if Any](#key-technologies--their-biological-counterparts-if-any)
 - [Implementation](#implementation)
 - [Applications](#applications)
 - [References](#references)
@@ -58,7 +58,7 @@ For the entanglement of the stationary photonic qubits/ququarts, a secondary wav
 
 ---
 
-## Key Technologies & Their Biological Counterparts (if Any)
+## Key Technologies & Their Biological Counterparts if Any
 
 - _Synapses_ **Photonic Memristors**: Continuous analog input
 - _Dendrites_ **Context-aware routing(Filters) and Waveguides**: context encoding via (voltage or phase change) metamaterials, (electro-optic or 2D material) polarizers, (tunable metasurface or photonic crystal) waveplates, and (carrier injection or phase change coupling) plasmonic structures some or all of which are embedded into the waveguides
