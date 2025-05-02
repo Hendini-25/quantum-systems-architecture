@@ -10,7 +10,7 @@ _The **Quantum Brain** is a next-generation photonic neuromorphic quantum comput
 - [Quaternary Logic](#quaternary-logic)
 - [Signal Propagation & Context Encoding](#signal-propagation--context-encoding)
 - [Architecture](#architecture)
-- [Key Technologies & Their Biological Counterparts](#key-technologies--their-biological-counterparts)
+- [Key Technologies & Their Biological Counterparts (if Any)]((#key-technologies--their-biological-counterparts-if-any))
 - [Implementation](#implementation)
 - [Applications](#applications)
 - [References](#references)
@@ -54,23 +54,24 @@ Information would be encoded in a quaternary storage and, via a combination of t
 
 A system of photonic qubits/ququarts, each with **n** photonic memristors attached. Those memristors connect to other qubits/ququarts, leading to step-based logic and interconnectedness, the same way that neurons have synapses connecting them to other neurons. The important part is that the signal from the memristors is analog and therefore noisy and unrefined, so it will need to be transformed into a digital signal to be refined by digital logic and then sent to the qubit. As such, the architecture will be data filters (CARs) -> connected waveguides -> photonic memristors -> digital logic -> qubits/ququarts. 
 
-For the entanglement of the stationary photonic qubits/ququarts, a secondary waveguide will serve as a targeted delivery path, on top of the first waveguide, which will allow photons to bypass the logic to entangle the qubits/ququarts with this mediator photon. This process of entanglement is a variation of entanglement swapping, in addition to resembling measurement-induced entanglement.
+For the entanglement of the stationary photonic qubits/ququarts, a secondary waveguide will serve as a targeted delivery pathway, on top of the first waveguide, which will allow photons to bypass the logic to entangle the qubits/ququarts with this mediator photon. This process of entanglement is a variation of entanglement swapping or mediated entanglement, in addition to resembling measurement-induced entanglement.
 
 ---
 
-## Key Technologies & Their Biological Counterparts
+## Key Technologies & Their Biological Counterparts (if Any)
 
-•	_Synapses_ **Photonic Memristors**: Continuous analog input
-•	_Dendrites_ **Context-aware routing(Filters) and Waveguides**: context encoding via (voltage or phase change) metamaterials, (electro-optic or 2D material) polarizers, (tunable metasurface or photonic crystal) waveplates, and (carrier injection or phase change coupling) plasmonic structures some or all of which are embedded into the waveguides
-•	_Axon Hillock_ **Photonic Digital Logic Layer**: processes analog signal, decides if/what gate to trigger
-•	_Axon_ **Photonic path/ (Qubits or Ququarts)**: Sends controlled signal(s) to (qubit or ququart) or the next unit
-•	_Neuron Soma_ **Photonic (Qubits or Ququarts)**: stores and process the result of interpreted signals
+- _Synapses_ **Photonic Memristors**: Continuous analog input
+- _Dendrites_ **Context-aware routing(Filters) and Waveguides**: context encoding via (voltage or phase change) metamaterials, (electro-optic or 2D material) polarizers, (tunable metasurface or photonic crystal) waveplates, and (carrier injection or phase change coupling) plasmonic structures some or all of which are embedded into the waveguides
+- _None_ **Secondary Waveguides**: allow for the entanglement of the two stationary qubits/ququarts
+- _Axon Hillock_ **Photonic Digital Logic Layer**: processes analog signal, decides if/what gate to trigger
+- _Axon_ **Photonic path/ (Qubits or Ququarts)**: Sends controlled signal(s) to (qubit or ququart) or the next unit
+- _Neuron Soma_ **Stationary Photonic (Qubits or Ququarts)**: stores and process the result of interpreted signals
 
 ---
 
 ## Implementation
 
-It is worth mentioning that the architecture being described would be best implemented in three dimensions rather than two. A 3D layout would allow for significantly greater interconnectivity/synapse density between photonic qubits, memristors, and filters, which would enable reduced signal latency and a closer approximation of biological neural structures. However, this level of dense three-dimensional photonic integration is currently far beyond technological capabilities—and may remain infeasible for the foreseeable future. 
+It is worth mentioning that the architecture being described would be best implemented in three dimensions rather than two. A 3D layout would allow for significantly greater interconnectivity/synapse density between photonic qubits, memristors, and filters, which would enable reduced signal latency and a closer approximation of biological neural structures. However, this level of dense three-dimensional photonic integration is currently far beyond technological capabilities and may remain infeasible for the foreseeable future. 
 As such, a two-dimensional implementation will serve as the initial development platform. While less optimized in terms of physical density and interconnect geometry, a 2D format would still allow for all of the core architectural features to be tested and demonstrated—including context-aware routing, quaternary logic, and signal propagation mechanisms.
 
 Notably, the **Quantum Brain** architecture, despite its name, is modular in quantum integration:
