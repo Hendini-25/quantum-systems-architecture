@@ -42,17 +42,16 @@ A communication protocol using collapse events and phase tagging to synchronize 
 
 ### **QSSD (Quantum State Storage Drive)**
 
-A phase-corrected quantum memory protocol using ancilla-based detection to validate and correct collapse-derived bit states.
+A phase-corrected quantum memory protocol using ancilla-based quantum non-destructive measurement (QND) to validate and correct collapse-derived bit states.
 
-> *(Note: This conceptual simultaneous file download quantum storage device has protocols that are currently invalidated by the no-cloning theorem. These invalidations affect the functionality of related technologies. I will publish more details in the not-too-distant future.)*
-
+> *(Note: This device )*
 
 
 ### **Quantum Brain**
 
 A neuromorphic quantum architecture using self-reinforcing collapse patterns and quaternary logic routing 
 
-> *(Note: Mostly Complete. The protocols of the "QSSD" that are invalidated by the no-cloning theorem are not invalidated to the same degree in the case of their application(s) in the "Quantum Brain.")* 
+> *(Note: Mostly Complete. The quantum aspect of the Quantum Brain is not necessary for it to be useful. Its quantum aspects, including qubits and the usage of protocols from the QSSD, are to increase its capabilities.)* 
 
 
 
