@@ -32,26 +32,26 @@ These projects are intended as **design blueprints**, **code fragments**, **arch
 
 
 
-### **PhaseLink**
+### **PhaseLink Transmission Model**
 
 A communication protocol using collapse events and phase tagging to synchronize systems without direct message transmission.
 
-> *(Note: This conceptual quantum communication protocol relies heavily on the QSSD's protocols. As such, information about "PhaseLink" and the "Quelephone" will be released after the QSSD, as they are conceptually similar; however, some key aspects of the two are different.)* 
+> *(Note: This conceptual quantum communication protocol is necessary for the QSSD. As such, information about "QSSD" and the "Quelephone" will be released after the PhaseLink, as they are conceptually similar; however, the applications of the two are different.)* 
 
 
 
 ### **QSSD (Quantum State Storage Drive)**
 
 A phase-corrected quantum memory protocol using ancilla-based quantum non-destructive measurement (QND) to validate and correct collapse-derived bit states.
-
-> *(Note: This device )*
+the 
+> *(Note: This conceptual quantum communication device relies heavily on the PhaseLink Transmission Model's protocols. As such, information about it and the "Quelephone" will be released after the PhaseLink, as they are conceptually similar; however, the applications of the two are different.)*
 
 
 ### **Quantum Brain**
 
-A neuromorphic quantum architecture using self-reinforcing collapse patterns and quaternary logic routing 
+A photonic neuromorphic architecture using context-aware synapses, complex encoding, and quaternary logic routing.
 
-> *(Note: Mostly Complete. The quantum aspect of the Quantum Brain is not necessary for it to be useful. Its quantum aspects, including qubits and the usage of protocols from the QSSD, are to increase its capabilities.)* 
+> *(Note: Mostly Complete. The quantum aspect of the Quantum Brain is not necessary for it to be useful. Its quantum aspects, including qubits and the usage of protocols from the PhaseLink Transmission Model, are to increase its capabilities.)* 
 
 
 
@@ -60,7 +60,7 @@ A neuromorphic quantum architecture using self-reinforcing collapse patterns and
 
 A conceptual entanglement-based communication device that uses collapse-confirmed phase signaling to replace conventional voice/data signaling systems.
 
-> *(Note: This conceptual quantum communication device relies heavily on the QSSD's protocols. As such, information about the "Quelephone" and "PhaseLink" will be released after the QSSD, as they are conceptually similar; however, some key aspects of the two are different.)*
+> *(Note: This conceptual quantum communication device relies heavily on the PhaseLink Transmission Model's protocols. As such, information about the "Quelephone" and the "QSSD" will be released after the PhaseLink, as they are conceptually similar; however, the applications of the two are different.)*
  
 
 
